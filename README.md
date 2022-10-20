@@ -1,6 +1,6 @@
 # Kapsul-Project
 ### Cleaning function
-I created a cleaning function that should work on all datasets. This function creates an id column, that starts from 1, if there is none, cleaned the columns name from Turkish characters and standardize them as "snake_case" , change every date format to ISO8601 date format and every number format to the right format. (ex: 1234567.89). 
+I created a [cleaning function](https://github.com/alexandradamir/Kapsul-Project/blob/main/cleaning_function.py) that should work on all datasets. This function creates an id column, that starts from 1, if there is none, cleaned the columns name from Turkish characters and standardize them as "snake_case" , change every date format to ISO8601 date format and every number format to the right format. (ex: 1234567.89). 
 The number and date format function finds every possible format and converts it to standard format. For this reason, this script could be used for any data set in the future.  
 The number cleaning function could be improved, currently the function loops through every value in every column and this could be too long of a process for larger datasets. The function could be improved if you loop just through the columns as in date cleaning function. 
 ### Dashboard
